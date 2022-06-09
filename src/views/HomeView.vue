@@ -13,7 +13,7 @@
   <!--Features-->
   <section class="features">
     <div class="title">
-      <h1>Que Ofrecemos?</h1>
+      <h1>¿Que Ofrecemos?</h1>
       <div class="line"></div>
     </div>
     <div class="row">
@@ -24,10 +24,8 @@
         />
         <h4>Productos Organicos</h4>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          illo error. Ad ipsa culpa, porro cupiditate id quis, minus cum esse,
-          magnam inventore aliquid consectetur perspiciatis! Reiciendis ad
-          excepturi ipsa.
+          Ofrecemos una canasta de productos organicos a nuestros afiliados. 
+          Todos estos productos procedientes nuestras granjas afilidadas garantizando altos estandares calidad y salubridad.
         </p>
         <a href="" class="ctn">Learn More</a>
       </div>
@@ -38,16 +36,18 @@
         />
         <h4>Viajes en Familia</h4>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          illo error. Ad ipsa culpa, porro cupiditate id quis, minus cum esse,
-          magnam inventore aliquid consectetur perspiciatis! Reiciendis ad
-          excepturi ipsa.
+          Nuestras granjas afiliadas proveen espacios ideales para paseos en famila. 
+          Disfrute de paseos en famila en los paisajes que ofrecen nuestros paseos guiados 
         </p>
         <a href="" class="ctn">Learn More</a>
       </div>
     </div>
   </section>
 
+  <section class="footer">
+    <p>Made by Copyright © Upcinos</p>
+    <p>Thanks for visit us. Take a cookie &#127850</p>
+  </section>
 </template>
 
 <style scoped>
@@ -143,6 +143,20 @@ p{
 
 .features .ctn{
   margin-top: 30px;
+}
+
+  .footer{
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 80px;
+  margin: 0;
+  background: #484872;
+  text-align: center;
+}
+
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
 }
 
 @media only screen and (max-width: 960px) {

@@ -2,18 +2,18 @@
   <section class="about-section">
     <div class="about-content">
       <div class="about-info">
-        <h2>About Us</h2>
+        <h2>Nosotros</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
-          facilis. Laudantium recusandae ratione ducimus. Labore incidunt rerum
-          veniam mollitia quasi nemo nesciunt aut id, suscipit enim. Ex saepe
-          reiciendis ducimus?
+          Mi granjita es un proyecto elabora por estudiantes la UPC(universidad peruana de ciencias aplicadas).
+          Tenemos el proposito de ofrecer una experiencia vivencial en la naturaleza para todas las personas y familias que sientan
+          que la dinamica urbana empeora su salud y rutina diaria. Nuestra propuesta es integrar a estas familias en la vida campestre
+          de una manera segura, confiable y comoda.
         </p>
       </div>
       <div>
         <div class="about-img">
           <img
-            src="https://cachimbo.pe/wp-content/uploads/2021/04/upc.jpg"
+            src="https://cdn.discordapp.com/attachments/833172117566259241/984344542532763668/unknown.png"
           />
         </div>
       </div>
@@ -23,11 +23,11 @@
 
 <style scoped>
 .about-section {
-  height: 90vh;
+  margin-top: 8vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #ffffff;
 }
 .about-content {
@@ -42,7 +42,7 @@
   padding-bottom: 25px;
 }
 .about-info h2 {
-  color: #484872;
+  color: #666785;
   font-size: 55px;
   text-transform: uppercase;
   font-weight: 800;
@@ -54,7 +54,6 @@
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 40px;
-  color: #7c7c7c;
 }
 .about-img {
   align-self: center;

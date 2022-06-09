@@ -2,13 +2,7 @@
   <section>
     <div class="section-header">
       <div class="container">
-        <h2>Contact Us</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          dignissimos eaque doloremque, nulla mollitia facilis temporibus ullam
-          voluptas nostrum consequatur? Fugiat vitae sint quo est eveniet
-          perspiciatis eum asperiores ipsam.
-        </p>
+        <h2>Contactanos</h2>
       </div>
     </div>
 
@@ -21,10 +15,10 @@
             </div>
 
             <div class="contact-info-content">
-              <h4>Address</h4>
+              <h4>Direccion</h4>
               <p>
-                4671 Sugar Camp Road,<br />
-                Owatonna, Minnesota, <br />55060
+                Pasaje La Ermita 541,<br />
+                Callao, Lima
               </p>
             </div>
           </div>
@@ -35,8 +29,8 @@
             </div>
 
             <div class="contact-info-content">
-              <h4>Phone</h4>
-              <p>561-456-2321</p>
+              <h4>Telefono</h4>
+              <p>936-110-278</p>
             </div>
           </div>
 
@@ -47,17 +41,17 @@
 
             <div class="contact-info-content">
               <h4>Email</h4>
-              <p>example@email.com</p>
+              <p>migranjita@email.com</p>
             </div>
           </div>
         </div>
 
         <div class="contact-form">
           <form action="" id="contact-form">
-            <h2>Send Message</h2>
+            <h2>Envia un mensaje</h2>
             <div class="input-box">
               <input type="text" required="true" name="" />
-              <span>Full Name</span>
+              <span>Nombre</span>
             </div>
 
             <div class="input-box">
@@ -67,11 +61,11 @@
 
             <div class="input-box">
               <textarea required="true" name=""></textarea>
-              <span>Type your Message...</span>
+              <span>Escribe su mensaje...</span>
             </div>
 
             <div class="input-box">
-              <input type="submit" value="Send" name="" />
+              <input type="submit" value="Enviar" name="" />
             </div>
           </form>
         </div>
@@ -88,7 +82,6 @@
 section {
   margin-top: 100px;
   height: 85vh;
-  z-index: 3;
   padding-top: 50px;
   padding-bottom: 50px;
 }

@@ -7,12 +7,12 @@ import { RouterLink, RouterView } from "vue-router";
   <section class="home-section">
     <header class="home-header">
       <h2>
-        <a @click="navigateToHomeView" href="#" class="home-logo">Mi granjita</a>
+        <a href="#" class="home-logo">Mi granjita</a>
       </h2>
       <div class="home-navbar">
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
+        <RouterLink to="/about">Nosotros</RouterLink>
+        <RouterLink to="/contact">Contacto</RouterLink>
       </div>
       <label class="home-label" for="check">
         <i class="fas fa-bars menu-btn"></i>
@@ -20,10 +20,6 @@ import { RouterLink, RouterView } from "vue-router";
       </label>
     </header>
     <RouterView />
-  </section>
-    <section class="footer">
-    <p>Made by Copyright © Upcinos</p>
-    <p>Thanks for visit us. Take a cookie &#127850</p>
   </section>
 
 </template>
@@ -87,20 +83,6 @@ import { RouterLink, RouterView } from "vue-router";
 #check {
   z-index: 3;
   display: none;
-}
-
-.footer{
-  width: 100%;
-  min-height: 100px;
-  padding: 20px 80px;
-  margin: 0;
-  background: #484872;
-  text-align: center;
-}
-
-.footer p {
-  color: whitesmoke;
-  margin: 20px auto;
 }
 /* Media Query */
 @media only screen and (max-width: 960px) {
